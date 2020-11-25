@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render default state 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Sorting numbers
+    </h1>
+    <form>
+      <input
+        class="error"
+        data-testid="input"
+        type="text"
+        value=""
+      />
+      <button
+        data-testid="button"
+        disabled=""
+        placeholder="0,0,0,0,0,0"
+        type="submit"
+      >
+        Order
+      </button>
+      <p
+        class="error-message"
+      >
+        Invalid format
+      </p>
+    </form>
+    <p
+      class="result"
+    >
+      Result: [
+      
+      ]
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App should render valid format 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Sorting numbers
+    </h1>
+    <form>
+      <input
+        class=""
+        data-testid="input"
+        type="text"
+        value="5,3,2,5"
+      />
+      <button
+        data-testid="button"
+        placeholder="0,0,0,0,0,0"
+        type="submit"
+      >
+        Order
+      </button>
+    </form>
+    <p
+      class="result"
+    >
+      Result: [
+      
+      ]
+    </p>
+  </div>
+</div>
+`;
